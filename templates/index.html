@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Water Quality Prediction</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="static/css/style.css" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar">
+          <img src="./static/images/logo4.jpg" alt="logo"><br><br><br><br><br>
+          <ul>
+              <li><a href="#home" target="_parent" ><i class="fas fa-home"></i>Home</a></li>
+              <li><a href="#about" target="_parent" ><i class="fa fa-info-circle"></i> About</a></li>
+              <li><a href="#check" target="_parent"><i class="fa fa-tint"></i> Check Water Quality</a></li>
+          </ul>   
+      </div>
+      <div class="main_content">
+        <!--Home start-->
+          <!--<div class="header"><h1>Optimized SVM Machine Learning Based Robust Water Quality Prediction System integrating with Feature Engineering Techniques</h1></div>-->
+          <div class="info" id="home">
+            <div class="container clearfix">
+              <div class="image">
+                  <img src="https://img.freepik.com/premium-photo/child-examines-water-with-magnifying-glass-selective-focus_73944-28982.jpg" 
+                   alt="Image Description">
+              </div>
+              <div class="content">
+                  <h2>Optimized SVM Machine Learning Based Robust Water Quality Prediction System Integrating With Feature Engineering Techniques</h2><br>
+                  
+              </div>
+          </div><br><br><br><br>
+        <!--Home ends-->
+
+        <!--About Section-->
+        <section class="about_section">
+          <div class="about" id="about">
+            <div class="container clearfix">
+              <div class="about_project">
+                  <h2>About Project</h2><br>    
+              </div>
+              <div class="project_info">
+                <p>Embark on a transformative journey in water quality prediction with our groundbreaking project, addressing the critical issue of deteriorating natural water resources. 
+                  Our proposed system employs advanced machine learning, leveraging Support Vector Machine (SVM) technology and innovative feature engineering techniques. 🌊🚀
+                  By surpassing traditional laboratory methods, our system efficiently processes vast amounts of water quality data in real-time, enabling continuous monitoring and early issue detection. 
+                  Overcoming limitations in sampling frequency and transportation delays associated with lab tests, our model aims to predict diverse water quality parameters accurately.
+                  Emphasizing the importance of high-quality training data, our approach involves rigorous feature selection methods, optimizing SVM for enhanced precision. 
+                  The system not only promises higher accuracy than existing models but also includes a user-friendly interface for interactive data input. 
+                  This interface ultimately predicts water quality and safety for drinking with optimized parameters. 
+                  🛠This project represents a significant leap towards proactive water resource management and sustainable environmental stewardship. 
+                  Our commitment extends beyond algorithms, empowering decision-makers to protect water resources for a healthier planet.🌟💧🌎</p><br>    
+            </div>
+          </div>
+        </section><br><br><br>
+      <!--About Section Ends-->
+
+        <!--Check water quality starts-->
+        <section class="water_section" id="check">
+        <div class="watercheck">
+          <div class="heading_container">
+            <h1>
+              Enter The Values Below For Water Quality Prediction
+            </h1>
+          </div><br>
+          <form action="/predict" method="post">
+            <!-- First Row -->
+            <div class="form-row">
+                <div class="form-field">
+                    <label for="field1">Cadmium:</label>
+                    <input type="number" id="field1" name="field1" placeholder="Enter Value of cadmium" step="any" required>
+                </div>
+                <div class="form-field">
+                    <label for="field2">Aluminium:</label>
+                    <input type="number" id="field2" name="field2" placeholder="Enter Value of aluminium" step="any" required>
+                </div>
+                <div class="form-field">
+                    <label for="field3">Arsenic:</label>
+                    <input type="number" id="field3" name="field3" placeholder="Enter Value of arsenic" step="any" required>
+                </div>
+            </div>
+    
+            <!-- Second Row -->
+            <div class="form-row">
+                <div class="form-field">
+                    <label for="field4">Chromium:</label>
+                    <input type="number" id="field4" name="field4" placeholder="Enter Value of chromium" step="any" required>
+                </div>
+                <div class="form-field">
+                    <label for="field5">Chloramine:</label>
+                    <input type="number" id="field5" name="field5" placeholder="Enter Value of chloramine" step="any" required>
+                </div>
+                <div class="form-field">
+                    <label for="field6">Perchlorate:</label>
+                    <input type="number" id="field6" name="field6" placeholder="Enter Value of perchlorate" step="any" required> 
+                </div>
+            </div>
+    
+            <!-- Third Row -->
+            <div class="form-row">
+                <div class="form-field">
+                    <label for="field7">Nitrites:</label>
+                    <input type="number" id="field7" name="field7" placeholder="Enter Value of nitrites" step="any" required>
+                </div>
+                <div class="form-field">
+                    <label for="field8">Radium:</label>
+                    <input type="number" id="field8" name="field8" placeholder="Enter Value of radium" step="any" required>
+                </div>
+                <div class="form-field">
+                    <label for="field9">Viruses:</label>
+                    <input type="number" id="field9" name="field9" placeholder="Enter Value of viruses" step="any" required>
+                </div>
+            </div>
+    
+            <!-- Fourth Row -->
+            <div class="form-row">
+                <div class="form-field">
+                    <label for="field10">Silver:</label>
+                    <input type="number" id="field10" name="field10" placeholder="Enter Value of silver" step="any" required>
+                </div>
+                <div class="form-field">
+                    <label for="field11">Uranium:</label>
+                    <input type="number" id="field11" name="field11" placeholder="Enter Value of uranium" step="any" required>
+                </div>
+                <div class="form-field">
+                    <label for="field12">Barium:</label>
+                    <input type="number" id="field12" name="field12" placeholder="Enter Value of barium" step="any" required>
+                </div>
+            </div><br>
+    
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary">Predict Water Quality</button>
+          </form>
+        </div>
+      </section>
+      <!--Check Water quality ends-->
+      </div>
+    </div>
+  </div>
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  </body>
+</html>
