@@ -23,6 +23,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/water-quality-prediction.git
+```
 
 **Install the required dependencies:**
 
