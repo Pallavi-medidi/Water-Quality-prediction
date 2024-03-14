@@ -38,26 +38,7 @@ Evaluate the model performance using test data.
 
 Make predictions on new data using the trained model.
 
-**Directory Structure**
 
-water-quality-prediction/
-│
-├── data/                      # Directory for storing datasets
-│   ├── train.csv              # Training dataset
-│   ├── test.csv               # Testing dataset
-│   └── new_data.csv           # New data for predictions
-│
-├── models/                    # Directory for storing trained models
-│   └── svm_model.pkl          # Trained SVM model (pickle format)
-│
-├── src/                       # Source code files
-│   ├── feature_engineering.py # Feature engineering functions
-│   ├── train_model.py         # Script for training SVM model
-│   ├── evaluate_model.py      # Script for evaluating model performance
-│   └── predict.py             # Script for making predictions
-│
-├── README.md                  # Documentation (you are here)
-└── requirements.txt           # List of required Python packages
 
 **Contributing**
 
