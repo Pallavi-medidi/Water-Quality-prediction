@@ -36,13 +36,14 @@ git clone https://github.com/yourusername/water-quality-prediction.git
 ```
 
 **Install the required dependencies:**
-
+```
 pip install -r requirements.txt
+```
 
 Next, navigate to the file predict.py and run it:
-
-  python predict.py   
-
+```
+python predict.py   
+```
 **Usage**
 
 Open the project in Visual Studio Code
