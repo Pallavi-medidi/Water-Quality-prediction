@@ -2,11 +2,12 @@
 
 **Overview**
 
+Water quality prediction is a critical aspect of environmental monitoring and public health management. It involves analyzing various parameters of water bodies to assess their quality, which helps in identifying potential risks and taking preventive measures. In this project, we aim to develop a robust water quality prediction system using machine learning techniques, specifically an optimized Support Vector Machine (SVM) model integrated with feature engineering techniques.
 
-This project aims to develop a robust water quality prediction system using machine learning techniques, specifically an optimized Support Vector Machine (SVM) model integrated with feature engineering techniques. The system analyzes various water quality parameters to predict the quality of water, which is crucial for environmental monitoring and public health.
+The primary objective of this project is to accurately predict water quality based on a set of input parameters. By utilizing advanced machine learning algorithms and feature engineering methods, we intend to create a predictive model that can effectively analyze water quality data and provide reliable predictions. This system will serve as a valuable tool for environmental scientists, policymakers, and public health officials to monitor and manage water resources effectively.
+
 
 **Features**
-
 
 Integration of machine learning for water quality prediction.
 
@@ -20,11 +21,16 @@ Robustness to handle diverse water quality datasets.
 
 Clone the repository:
 
+```bash
 git clone https://github.com/yourusername/water-quality-prediction.git
 
 **Install the required dependencies:**
 
 pip install -r requirements.txt
+
+Next, navigate to the file predict.py and run it:
+
+  python predict.py   
 
 **Usage**
 
