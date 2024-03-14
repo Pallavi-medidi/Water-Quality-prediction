@@ -9,6 +9,9 @@ This project aims to develop a robust water quality prediction system using mach
 
 
 Integration of machine learning for water quality prediction.
+
 Utilization of an optimized SVM model for accurate predictions.
+
 Incorporation of feature engineering techniques to enhance model performance.
+
 Robustness to handle diverse water quality datasets.
