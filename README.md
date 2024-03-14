@@ -35,9 +35,13 @@ Next, navigate to the file predict.py and run it:
 
 **Usage**
 
+Open the project in Visual Studio Code
+
 Prepare your water quality dataset in a compatible format (e.g., CSV, Excel).
 
 Explore and preprocess the dataset using provided scripts or tools of your choice.
+
+Execute the provided script to perform feature selection.
 
 Train the SVM model by running the training script.
 
@@ -54,6 +58,8 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 **License**
 
 This project is licensed under the MIT License.
+
+
 
 
 
