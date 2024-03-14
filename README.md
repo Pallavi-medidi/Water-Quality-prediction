@@ -9,19 +9,29 @@ The primary objective of this project is to accurately predict water quality bas
 
 **Features**
 
-Integration of machine learning for water quality prediction.
+• The proposed model implemented by using machine learning.
 
-Utilization of an optimized SVM model for accurate predictions.
+• The proposed model trained with a high-quality data set through which we can get better accuracy.
+   
+• We found the precision and recall for the proposed model.
 
-Incorporation of feature engineering techniques to enhance model performance.
+• We selected the features by using different methods and found accuracy for each method.
 
-Robustness to handle diverse water quality datasets.
+• The proposed model trained with various feature selection techniques.
+
+• The proposed model will predict the water quality by using an optimized Support Vector Machine (SVM) method and feature engineering techniques.
+
+• The proposed model contains a user interface where the user can interact with the model by giving data as input.
+
+• This model will predict the water quality using optimized parameters.
+
+• Robustness to handle diverse water quality datasets.
 
 **Installation**
 
 Clone the repository:
 
-```bash
+```
 git clone https://github.com/yourusername/water-quality-prediction.git
 ```
 
